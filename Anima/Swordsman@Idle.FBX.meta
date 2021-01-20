@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: e7a422cb608bd3e409aeb5651e68e16d
 ModelImporter:
-  serializedVersion: 25
+  serializedVersion: 19301
   internalIDToNameTable:
   - first:
       1: 100000
@@ -497,7 +497,7 @@ ModelImporter:
     second: Mesh-Swordsman
   externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -667,10 +667,12 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -697,7 +699,6 @@ ModelImporter:
     normalSmoothingSource: 0
   referencedClips: []
   importAnimation: 1
-  copyAvatar: 1
   humanDescription:
     serializedVersion: 3
     human:
@@ -1406,9 +1407,11 @@ ModelImporter:
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: e3942fec22e99384e9cee5aef64adec1,
     type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 2
   additionalBone: 0
-  userData: 
+  userData: ClipVersion=1,
   assetBundleName: 
   assetBundleVariant: 

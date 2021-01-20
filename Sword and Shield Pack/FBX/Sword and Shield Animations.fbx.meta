@@ -1,190 +1,548 @@
 fileFormatVersion: 2
 guid: 33012e8e8b4934b4b8cf34ee4d541068
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Ankle_L
-    100002: Ankle_R
-    100004: Bottom
-    100006: Chest_M
-    100008: DeformationSystem
-    100010: Elbow_L
-    100012: Elbow_R
-    100014: Face_New
-    100016: geo
-    100018: Group
-    100020: Head_M
-    100022: HeadEnd_M
-    100024: Hip_L
-    100026: Hip_R
-    100028: IndexFinger1_L
-    100030: IndexFinger1_R
-    100032: IndexFinger2_L
-    100034: IndexFinger2_R
-    100036: IndexFinger3_L
-    100038: IndexFinger3_R
-    100040: IndexFinger4_L
-    100042: IndexFinger4_R
-    100044: Knee_L
-    100046: Knee_R
-    100048: Main
-    100050: MiddleFinger1_L
-    100052: MiddleFinger1_R
-    100054: MiddleFinger2_L
-    100056: MiddleFinger2_R
-    100058: MiddleFinger3_L
-    100060: MiddleFinger3_R
-    100062: MiddleFinger4_L
-    100064: MiddleFinger4_R
-    100066: Neck_M
-    100068: PinkyFinger1_L
-    100070: PinkyFinger1_R
-    100072: PinkyFinger2_L
-    100074: PinkyFinger2_R
-    100076: PinkyFinger3_L
-    100078: PinkyFinger3_R
-    100080: PinkyFinger4_L
-    100082: PinkyFinger4_R
-    100084: RingFinger1_L
-    100086: RingFinger1_R
-    100088: RingFinger2_L
-    100090: RingFinger2_R
-    100092: RingFinger3_L
-    100094: RingFinger3_R
-    100096: RingFinger4_L
-    100098: RingFinger4_R
-    100100: Root_M
-    100102: Scapula_L
-    100104: Scapula_R
-    100106: Shield
-    100108: Shield_Joint
-    100110: Shoulder_L
-    100112: Shoulder_R
-    100114: Spine1_M
-    100116: Spine2_M
-    100118: Sword
-    100120: //RootNode
-    100122: Sword_Joint
-    100124: ThumbFinger1_L
-    100126: ThumbFinger1_R
-    100128: ThumbFinger2_L
-    100130: ThumbFinger2_R
-    100132: ThumbFinger3_L
-    100134: ThumbFinger3_R
-    100136: ThumbFinger4_L
-    100138: ThumbFinger4_R
-    100140: Toes_L
-    100142: Toes_R
-    100144: ToesEnd_L
-    100146: ToesEnd_R
-    100148: Torso
-    100150: Wrist_L
-    100152: Wrist_R
-    400000: Ankle_L
-    400002: Ankle_R
-    400004: Bottom
-    400006: Chest_M
-    400008: DeformationSystem
-    400010: Elbow_L
-    400012: Elbow_R
-    400014: Face_New
-    400016: geo
-    400018: Group
-    400020: Head_M
-    400022: HeadEnd_M
-    400024: Hip_L
-    400026: Hip_R
-    400028: IndexFinger1_L
-    400030: IndexFinger1_R
-    400032: IndexFinger2_L
-    400034: IndexFinger2_R
-    400036: IndexFinger3_L
-    400038: IndexFinger3_R
-    400040: IndexFinger4_L
-    400042: IndexFinger4_R
-    400044: Knee_L
-    400046: Knee_R
-    400048: Main
-    400050: MiddleFinger1_L
-    400052: MiddleFinger1_R
-    400054: MiddleFinger2_L
-    400056: MiddleFinger2_R
-    400058: MiddleFinger3_L
-    400060: MiddleFinger3_R
-    400062: MiddleFinger4_L
-    400064: MiddleFinger4_R
-    400066: Neck_M
-    400068: PinkyFinger1_L
-    400070: PinkyFinger1_R
-    400072: PinkyFinger2_L
-    400074: PinkyFinger2_R
-    400076: PinkyFinger3_L
-    400078: PinkyFinger3_R
-    400080: PinkyFinger4_L
-    400082: PinkyFinger4_R
-    400084: RingFinger1_L
-    400086: RingFinger1_R
-    400088: RingFinger2_L
-    400090: RingFinger2_R
-    400092: RingFinger3_L
-    400094: RingFinger3_R
-    400096: RingFinger4_L
-    400098: RingFinger4_R
-    400100: Root_M
-    400102: Scapula_L
-    400104: Scapula_R
-    400106: Shield
-    400108: Shield_Joint
-    400110: Shoulder_L
-    400112: Shoulder_R
-    400114: Spine1_M
-    400116: Spine2_M
-    400118: Sword
-    400120: //RootNode
-    400122: Sword_Joint
-    400124: ThumbFinger1_L
-    400126: ThumbFinger1_R
-    400128: ThumbFinger2_L
-    400130: ThumbFinger2_R
-    400132: ThumbFinger3_L
-    400134: ThumbFinger3_R
-    400136: ThumbFinger4_L
-    400138: ThumbFinger4_R
-    400140: Toes_L
-    400142: Toes_R
-    400144: ToesEnd_L
-    400146: ToesEnd_R
-    400148: Torso
-    400150: Wrist_L
-    400152: Wrist_R
-    2100000: superman_skin_mtl3
-    2100002: blinn4SG4
-    2100004: blinn1SG4
-    2100006: blinn2SG4
-    2100008: lambert6
-    4300000: Face_New
-    4300002: Torso
-    4300004: Bottom
-    4300006: Shield
-    4300008: Sword
-    7400000: Idle
-    7400002: Walk
-    7400004: Attack_01
-    7400006: Attack_02
-    7400008: Cover
-    7400010: Get Hit
-    7400012: Knock Out
-    7400014: Death
-    9500000: //RootNode
-    13700000: Bottom
-    13700002: Face_New
-    13700004: Shield
-    13700006: Sword
-    13700008: Torso
-    2186277476908879412: ImportLogs
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Ankle_L
+  - first:
+      1: 100002
+    second: Ankle_R
+  - first:
+      1: 100004
+    second: Bottom
+  - first:
+      1: 100006
+    second: Chest_M
+  - first:
+      1: 100008
+    second: DeformationSystem
+  - first:
+      1: 100010
+    second: Elbow_L
+  - first:
+      1: 100012
+    second: Elbow_R
+  - first:
+      1: 100014
+    second: Face_New
+  - first:
+      1: 100016
+    second: geo
+  - first:
+      1: 100018
+    second: Group
+  - first:
+      1: 100020
+    second: Head_M
+  - first:
+      1: 100022
+    second: HeadEnd_M
+  - first:
+      1: 100024
+    second: Hip_L
+  - first:
+      1: 100026
+    second: Hip_R
+  - first:
+      1: 100028
+    second: IndexFinger1_L
+  - first:
+      1: 100030
+    second: IndexFinger1_R
+  - first:
+      1: 100032
+    second: IndexFinger2_L
+  - first:
+      1: 100034
+    second: IndexFinger2_R
+  - first:
+      1: 100036
+    second: IndexFinger3_L
+  - first:
+      1: 100038
+    second: IndexFinger3_R
+  - first:
+      1: 100040
+    second: IndexFinger4_L
+  - first:
+      1: 100042
+    second: IndexFinger4_R
+  - first:
+      1: 100044
+    second: Knee_L
+  - first:
+      1: 100046
+    second: Knee_R
+  - first:
+      1: 100048
+    second: Main
+  - first:
+      1: 100050
+    second: MiddleFinger1_L
+  - first:
+      1: 100052
+    second: MiddleFinger1_R
+  - first:
+      1: 100054
+    second: MiddleFinger2_L
+  - first:
+      1: 100056
+    second: MiddleFinger2_R
+  - first:
+      1: 100058
+    second: MiddleFinger3_L
+  - first:
+      1: 100060
+    second: MiddleFinger3_R
+  - first:
+      1: 100062
+    second: MiddleFinger4_L
+  - first:
+      1: 100064
+    second: MiddleFinger4_R
+  - first:
+      1: 100066
+    second: Neck_M
+  - first:
+      1: 100068
+    second: PinkyFinger1_L
+  - first:
+      1: 100070
+    second: PinkyFinger1_R
+  - first:
+      1: 100072
+    second: PinkyFinger2_L
+  - first:
+      1: 100074
+    second: PinkyFinger2_R
+  - first:
+      1: 100076
+    second: PinkyFinger3_L
+  - first:
+      1: 100078
+    second: PinkyFinger3_R
+  - first:
+      1: 100080
+    second: PinkyFinger4_L
+  - first:
+      1: 100082
+    second: PinkyFinger4_R
+  - first:
+      1: 100084
+    second: RingFinger1_L
+  - first:
+      1: 100086
+    second: RingFinger1_R
+  - first:
+      1: 100088
+    second: RingFinger2_L
+  - first:
+      1: 100090
+    second: RingFinger2_R
+  - first:
+      1: 100092
+    second: RingFinger3_L
+  - first:
+      1: 100094
+    second: RingFinger3_R
+  - first:
+      1: 100096
+    second: RingFinger4_L
+  - first:
+      1: 100098
+    second: RingFinger4_R
+  - first:
+      1: 100100
+    second: Root_M
+  - first:
+      1: 100102
+    second: Scapula_L
+  - first:
+      1: 100104
+    second: Scapula_R
+  - first:
+      1: 100106
+    second: Shield
+  - first:
+      1: 100108
+    second: Shield_Joint
+  - first:
+      1: 100110
+    second: Shoulder_L
+  - first:
+      1: 100112
+    second: Shoulder_R
+  - first:
+      1: 100114
+    second: Spine1_M
+  - first:
+      1: 100116
+    second: Spine2_M
+  - first:
+      1: 100118
+    second: Sword
+  - first:
+      1: 100120
+    second: //RootNode
+  - first:
+      1: 100122
+    second: Sword_Joint
+  - first:
+      1: 100124
+    second: ThumbFinger1_L
+  - first:
+      1: 100126
+    second: ThumbFinger1_R
+  - first:
+      1: 100128
+    second: ThumbFinger2_L
+  - first:
+      1: 100130
+    second: ThumbFinger2_R
+  - first:
+      1: 100132
+    second: ThumbFinger3_L
+  - first:
+      1: 100134
+    second: ThumbFinger3_R
+  - first:
+      1: 100136
+    second: ThumbFinger4_L
+  - first:
+      1: 100138
+    second: ThumbFinger4_R
+  - first:
+      1: 100140
+    second: Toes_L
+  - first:
+      1: 100142
+    second: Toes_R
+  - first:
+      1: 100144
+    second: ToesEnd_L
+  - first:
+      1: 100146
+    second: ToesEnd_R
+  - first:
+      1: 100148
+    second: Torso
+  - first:
+      1: 100150
+    second: Wrist_L
+  - first:
+      1: 100152
+    second: Wrist_R
+  - first:
+      4: 400000
+    second: Ankle_L
+  - first:
+      4: 400002
+    second: Ankle_R
+  - first:
+      4: 400004
+    second: Bottom
+  - first:
+      4: 400006
+    second: Chest_M
+  - first:
+      4: 400008
+    second: DeformationSystem
+  - first:
+      4: 400010
+    second: Elbow_L
+  - first:
+      4: 400012
+    second: Elbow_R
+  - first:
+      4: 400014
+    second: Face_New
+  - first:
+      4: 400016
+    second: geo
+  - first:
+      4: 400018
+    second: Group
+  - first:
+      4: 400020
+    second: Head_M
+  - first:
+      4: 400022
+    second: HeadEnd_M
+  - first:
+      4: 400024
+    second: Hip_L
+  - first:
+      4: 400026
+    second: Hip_R
+  - first:
+      4: 400028
+    second: IndexFinger1_L
+  - first:
+      4: 400030
+    second: IndexFinger1_R
+  - first:
+      4: 400032
+    second: IndexFinger2_L
+  - first:
+      4: 400034
+    second: IndexFinger2_R
+  - first:
+      4: 400036
+    second: IndexFinger3_L
+  - first:
+      4: 400038
+    second: IndexFinger3_R
+  - first:
+      4: 400040
+    second: IndexFinger4_L
+  - first:
+      4: 400042
+    second: IndexFinger4_R
+  - first:
+      4: 400044
+    second: Knee_L
+  - first:
+      4: 400046
+    second: Knee_R
+  - first:
+      4: 400048
+    second: Main
+  - first:
+      4: 400050
+    second: MiddleFinger1_L
+  - first:
+      4: 400052
+    second: MiddleFinger1_R
+  - first:
+      4: 400054
+    second: MiddleFinger2_L
+  - first:
+      4: 400056
+    second: MiddleFinger2_R
+  - first:
+      4: 400058
+    second: MiddleFinger3_L
+  - first:
+      4: 400060
+    second: MiddleFinger3_R
+  - first:
+      4: 400062
+    second: MiddleFinger4_L
+  - first:
+      4: 400064
+    second: MiddleFinger4_R
+  - first:
+      4: 400066
+    second: Neck_M
+  - first:
+      4: 400068
+    second: PinkyFinger1_L
+  - first:
+      4: 400070
+    second: PinkyFinger1_R
+  - first:
+      4: 400072
+    second: PinkyFinger2_L
+  - first:
+      4: 400074
+    second: PinkyFinger2_R
+  - first:
+      4: 400076
+    second: PinkyFinger3_L
+  - first:
+      4: 400078
+    second: PinkyFinger3_R
+  - first:
+      4: 400080
+    second: PinkyFinger4_L
+  - first:
+      4: 400082
+    second: PinkyFinger4_R
+  - first:
+      4: 400084
+    second: RingFinger1_L
+  - first:
+      4: 400086
+    second: RingFinger1_R
+  - first:
+      4: 400088
+    second: RingFinger2_L
+  - first:
+      4: 400090
+    second: RingFinger2_R
+  - first:
+      4: 400092
+    second: RingFinger3_L
+  - first:
+      4: 400094
+    second: RingFinger3_R
+  - first:
+      4: 400096
+    second: RingFinger4_L
+  - first:
+      4: 400098
+    second: RingFinger4_R
+  - first:
+      4: 400100
+    second: Root_M
+  - first:
+      4: 400102
+    second: Scapula_L
+  - first:
+      4: 400104
+    second: Scapula_R
+  - first:
+      4: 400106
+    second: Shield
+  - first:
+      4: 400108
+    second: Shield_Joint
+  - first:
+      4: 400110
+    second: Shoulder_L
+  - first:
+      4: 400112
+    second: Shoulder_R
+  - first:
+      4: 400114
+    second: Spine1_M
+  - first:
+      4: 400116
+    second: Spine2_M
+  - first:
+      4: 400118
+    second: Sword
+  - first:
+      4: 400120
+    second: //RootNode
+  - first:
+      4: 400122
+    second: Sword_Joint
+  - first:
+      4: 400124
+    second: ThumbFinger1_L
+  - first:
+      4: 400126
+    second: ThumbFinger1_R
+  - first:
+      4: 400128
+    second: ThumbFinger2_L
+  - first:
+      4: 400130
+    second: ThumbFinger2_R
+  - first:
+      4: 400132
+    second: ThumbFinger3_L
+  - first:
+      4: 400134
+    second: ThumbFinger3_R
+  - first:
+      4: 400136
+    second: ThumbFinger4_L
+  - first:
+      4: 400138
+    second: ThumbFinger4_R
+  - first:
+      4: 400140
+    second: Toes_L
+  - first:
+      4: 400142
+    second: Toes_R
+  - first:
+      4: 400144
+    second: ToesEnd_L
+  - first:
+      4: 400146
+    second: ToesEnd_R
+  - first:
+      4: 400148
+    second: Torso
+  - first:
+      4: 400150
+    second: Wrist_L
+  - first:
+      4: 400152
+    second: Wrist_R
+  - first:
+      21: 2100000
+    second: superman_skin_mtl3
+  - first:
+      21: 2100002
+    second: blinn4SG4
+  - first:
+      21: 2100004
+    second: blinn1SG4
+  - first:
+      21: 2100006
+    second: blinn2SG4
+  - first:
+      21: 2100008
+    second: lambert6
+  - first:
+      43: 4300000
+    second: Face_New
+  - first:
+      43: 4300002
+    second: Torso
+  - first:
+      43: 4300004
+    second: Bottom
+  - first:
+      43: 4300006
+    second: Shield
+  - first:
+      43: 4300008
+    second: Sword
+  - first:
+      74: 7400000
+    second: Idle
+  - first:
+      74: 7400002
+    second: Walk
+  - first:
+      74: 7400004
+    second: Attack_01
+  - first:
+      74: 7400006
+    second: Attack_02
+  - first:
+      74: 7400008
+    second: Cover
+  - first:
+      74: 7400010
+    second: Get Hit
+  - first:
+      74: 7400012
+    second: Knock Out
+  - first:
+      74: 7400014
+    second: Death
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Bottom
+  - first:
+      137: 13700002
+    second: Face_New
+  - first:
+      137: 13700004
+    second: Shield
+  - first:
+      137: 13700006
+    second: Sword
+  - first:
+      137: 13700008
+    second: Torso
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -198,25 +556,26 @@ ModelImporter:
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: "\nClip 'Attack_01' has import animation warnings that
-      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
-      improve retargeting quality.\n\t'Hip_R' has scale animation that will be discarded.\n\t'Knee_R'
-      has scale animation that will be discarded.\n\t'Hip_L' has scale animation that
-      will be discarded.\n\t'Knee_L' has scale animation that will be discarded.\n\nClip
-      'Attack_02' has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'Hip_R'
-      has scale animation that will be discarded.\n\t'Knee_R' has scale animation
-      that will be discarded.\n\t'Hip_L' has scale animation that will be discarded.\n\t'Knee_L'
-      has scale animation that will be discarded.\n\nClip 'Cover' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation DOF
-      on avatar to improve retargeting quality.\n\t'Hip_L' has scale animation that
-      will be discarded.\n\t'Knee_L' has scale animation that will be discarded.\n\nClip
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Hip_R' has scale animation that will be
+      discarded.\n\t'Knee_R' has scale animation that will be discarded.\n\t'Hip_L'
+      has scale animation that will be discarded.\n\t'Knee_L' has scale animation
+      that will be discarded.\n\nClip 'Attack_02' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Hip_R' has scale animation that will be
+      discarded.\n\t'Knee_R' has scale animation that will be discarded.\n\t'Hip_L'
+      has scale animation that will be discarded.\n\t'Knee_L' has scale animation
+      that will be discarded.\n\nClip 'Cover' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Hip_L' has scale animation that will be
+      discarded.\n\t'Knee_L' has scale animation that will be discarded.\n\nClip
       'Knock Out' has import animation warnings that might lower retargeting quality:\nNote:
       Activate translation DOF on avatar to improve retargeting quality.\n\t'Hip_R'
       has scale animation that will be discarded.\n\t'Knee_R' has scale animation
-      that will be discarded.\n\nClip 'Death' has import animation warnings that might
-      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
-      retargeting quality.\n\t'Hip_R' has scale animation that will be discarded.\n\t'Knee_R'
-      has scale animation that will be discarded.\n"
+      that will be discarded.\n\nClip 'Death' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Hip_R' has scale animation that will be
+      discarded.\n\t'Knee_R' has scale animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -232,6 +591,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Idle
       takeName: Idle
+      internalID: 0
       firstFrame: 0
       lastFrame: 75
       wrapMode: 0
@@ -260,6 +620,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk
       takeName: Walk
+      internalID: 0
       firstFrame: 76
       lastFrame: 109
       wrapMode: 0
@@ -288,6 +649,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Attack_01
       takeName: Attack_01
+      internalID: 0
       firstFrame: 110
       lastFrame: 160
       wrapMode: 0
@@ -316,6 +678,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Attack_02
       takeName: Attack_02
+      internalID: 0
       firstFrame: 161
       lastFrame: 248
       wrapMode: 0
@@ -344,6 +707,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Cover
       takeName: Cover
+      internalID: 0
       firstFrame: 249
       lastFrame: 291
       wrapMode: 0
@@ -372,6 +736,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Get Hit
       takeName: Get Hit
+      internalID: 0
       firstFrame: 292
       lastFrame: 322
       wrapMode: 0
@@ -400,6 +765,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Knock Out
       takeName: Knock Out
+      internalID: 0
       firstFrame: 323
       lastFrame: 528
       wrapMode: 0
@@ -428,6 +794,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Death
       takeName: Death
+      internalID: 0
       firstFrame: 529
       lastFrame: 661
       wrapMode: 0
@@ -460,25 +827,28 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -487,10 +857,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: Root_M
       humanName: Hips
@@ -1302,14 +1672,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
-  userData: 
+  userData: ClipVersion=1,
   assetBundleName: 
   assetBundleVariant: 
