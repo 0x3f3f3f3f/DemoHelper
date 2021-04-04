@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 33012e8e8b4934b4b8cf34ee4d541068
 ModelImporter:
-  serializedVersion: 20200
+  serializedVersion: 21100
   internalIDToNameTable:
   - first:
       1: 100000
@@ -745,7 +745,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 1
       loopBlendOrientation: 1
       loopBlendPositionY: 1
@@ -761,7 +761,7 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+      additiveReferencePoseFrame: 291.9
     - serializedVersion: 16
       name: Knock Out
       takeName: Knock Out
