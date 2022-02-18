@@ -548,7 +548,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 134720863729775671, guid: c7b1d91cc75764441a92ee658669b5bd, type: 3}
       propertyPath: m_Intensity
-      value: 3.5
+      value: 3.1415925
       objectReference: {fileID: 0}
     - target: {fileID: 134720863729775671, guid: c7b1d91cc75764441a92ee658669b5bd, type: 3}
       propertyPath: m_ColorTemperature
