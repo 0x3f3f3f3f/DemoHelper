@@ -321,7 +321,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2035111233}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d07c5b68c1cfe64ca63f5d2bb80d2c5, type: 3}
   m_Name: 
@@ -330,8 +330,8 @@ MonoBehaviour:
   m_FrameSpace: 0
   m_AnchorPositionOverride: {fileID: 6851350091368846777}
   m_AnchorPositionOffset: {x: 0, y: 0, z: 0}
-  m_Yaw: 0
-  m_Pitch: 110
+  m_Yaw: -180
+  m_Pitch: 70
   m_Roll: 0
 --- !u!1 &6851350090662473007
 GameObject:
